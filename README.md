@@ -1,7 +1,7 @@
 # PyBer Ride-Sharing Analysis
 ## Project Overview
 
-While working at PyBer a ride-sharing company, created some simple analysis that the CEO V. Isualize has used for strategic decision making. V. Isualize was so impressed with our initial analysis and visualizations that we were tasked with another assignment. For this assignment, the CEO would like to see a graph that shows the total weekly fares for each city type. To display this data in an easy-to-read format we will be using a line graph. 
+While working at PyBer a ride-sharing company, we created some simple analysis that the CEO V. Isualize had used for strategic decision making. V. Isualize was so impressed with our initial analysis and visualizations that we were tasked with another assignment. For this assignment, the CEO would like to see a matrix of key information by city type as well as a graph that shows the total weekly fares for each city type. To display this data in an easy-to-read format we will be using a line graph. 
 ## Resources
 -	Data Sources: city_data.csv, ride_data.csv
 -	Software: Python 3.7.6, Anaconda Version 4.10.3, Jupyter Notebook
@@ -11,9 +11,11 @@ While working at PyBer a ride-sharing company, created some simple analysis that
 ### PyBer Data Summary 
 After we merged the data provided to us we built a simple matrix that can be used to easily see the key metrics by city type that routinely get used in strategic decision making. There are totals by city type for rides and drivers as well as averages for fare per ride and fare per driver. 
 Urban cities had higher totals and averages in all categories while rural cities were the lowest overall. 
+
 PyBer City Type Summary Matrix: 
 
-!Insert Image table
+![PyBer_Summary_DF](https://user-images.githubusercontent.com/90698381/138612312-8571adc4-e1cb-4b6e-aa57-f81935841bdc.png)
+
 
 Key observations in this matrix are as follows: 
 -	Urban cities had more total drivers than total rides.
@@ -22,10 +24,11 @@ Key observations in this matrix are as follows:
 -	Average rural fares per driver are almost $40 higher than that of urban cites. 
 
 ### PyBer Weekly Ride Fare Summary 
-To show the by week trend of the total fares collected by PyBer from January 2019 to the end of April 2019 we created a line graph per V. Isualize’s request. Similar to the previous analysis the graph below is grouped by city type and it clearly shows that urban cities collect the highest total fares (top line), suburban rides generally take in a moderate amount of fares (middle line) and rural fares are bring in the lowest per weekly fares (bottom line). 
+To show the by week trend of the total fares collected by PyBer from January 2019 to the end of April 2019 we created a line graph per V. Isualize’s request. Similar to the previous analysis the graph below is grouped by city type and it clearly shows that urban cities collect the highest total fares (top line), suburban rides generally take in a moderate amount of fares (middle line) and rural fares bring in the lowest per weekly fares (bottom line). 
+
 Total Fare by City Type Graph: 
 
-!Insert line Chart
+![PyBer_fare_summary](https://user-images.githubusercontent.com/90698381/138612322-247032ec-b6ad-4c52-9286-e00269ed222c.png)
 
 We can also see that weekly urban and suburban fares collected tend to be lowest at the start of the year in January and the rural fares peak in April. 
 ## Summary 
